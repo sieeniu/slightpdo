@@ -1,0 +1,20 @@
+{
+  "name": "sieeniu/slight-pdo",
+  "description": "PDO wrapper for PHP",
+  "version": "0.1.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Paweł Sieniewicz",
+      "email": "psieniewicz@sapply.pl"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlightPDO\\": "src"
+    }
+  }
+}
